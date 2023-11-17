@@ -49,6 +49,6 @@
     order: 1;
     background-size: cover;
     background-position: center;
-    @include responsivebackground("my_dog_maruSMALL.jpg", "my_dog_maru_MEDIUM.jpg", "my_dog_maru.jpg");
+    @include responsivebackground("my_dog_maru-sm.jpg", "my_dog_maru-md.jpg", "my_dog_maru-lg.jpg");
   }
 }
