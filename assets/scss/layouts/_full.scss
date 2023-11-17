@@ -16,7 +16,7 @@
   &__image {
     background-size: cover;
     background-position: center;
-    @include responsivebackground("full-sm.jpg", "full-md.jpg", "full-lg.jpg");
+    @include responsivebackground("my_dog_maruSMALL.jpg", "my_dog_maru_MEDIUM.jpg", "my_dog_maru.jpg");
     min-height: 50vh;
 
     @include min(md) {
